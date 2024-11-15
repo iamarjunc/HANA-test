@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
-    'hanaprj.db_backends.hana',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +76,7 @@ WSGI_APPLICATION = 'hanaprj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'hanaprj.db_backends.hana.base',
+        'ENGINE': 'django_hana.db.backends.hana',  # Point to your custom backend
         'NAME': 'BILLTRACKING',  # Replace with your SAP HANA database name
         'USER': 'B1ADMIN',  # Replace with your SAP HANA username
         'PASSWORD': 'HopBwENw4CbUPZkXe!!!',  # Replace with your SAP HANA password

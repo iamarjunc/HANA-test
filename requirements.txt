@@ -1,0 +1,10 @@
+asgiref==3.8.1
+Django==5.0.9
+django_hana @ git+https://github.com/mathebox/django_hana_pyhdb.git@30baac0d2e753795a8a70b47693c6ef82ae6e509
+hdbcli==2.22.32
+mssql-django==1.5
+pyhdb==0.3.4
+pyodbc==5.2.0
+pytz==2024.2
+sqlparse==0.5.2
+tzdata==2024.2
